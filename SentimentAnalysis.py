@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import naive_bayes
 from sklearn.svm import LinearSVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-url= "C:/Users/Bosco/Documents/Sentiment_Anlaysis/AllProductReviews.csv"
+url= "./AllProductReviews.csv"
 df = pd.read_csv(url)
 df[0:5000]
 
